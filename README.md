@@ -6,7 +6,7 @@
 - Gabriel Rodrigues Soares
 - João Fernando Ehlers  
 - Leonardo Xavier Rodrigues  
-- Hugo Vinicius Fonseca Zuin  
+- Hugo Vinícius Fonseca Zuin  
 - Henrique Pacheco Alves  
 
 ## Aplicativo de Orientação para Manutenção Automotiva
