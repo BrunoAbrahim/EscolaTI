@@ -257,7 +257,6 @@ Para referência do ciclo de vida completo de um pedido:
 **Em caso de devolução:** Consumidor solicita devolução dentro do prazo → Entregador coleta o produto no endereço do consumidor → Entregador devolve à loja → Lojista confirma recebimento em boas condições → Reembolso processado automaticamente **(DEVOLVIDO/REEMBOLSADO)**.
 
 ---
-
 ## Legenda
 
 | Símbolo / Termo      | Significado                                                   |
