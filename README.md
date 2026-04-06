@@ -7,7 +7,7 @@
 
   <br />
 
-  <img src="https://skillicons.dev/icons?i=react,typescript,java,spring,postgresql,redis,docker" />
+  <img src="https://skillicons.dev/icons?i=react,typescript,next,java,spring,postgresql,redis,docker" />
 
   <br /><br />
 
@@ -60,7 +60,7 @@ Consumidor busca por categoria, tamanho, preço ou proximidade
 | Camada   | Tecnologias                                                                                                                        |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Mobile   | <img src="https://skillicons.dev/icons?i=react,typescript" height="24" /> React Native · Expo · TypeScript                         |
-| Frontend | <img src="https://skillicons.dev/icons?i=react,typescript" height="24" /> React · TypeScript                                       |
+| Frontend | <img src="https://skillicons.dev/icons?i=next,typescript" height="24" /> Next · TypeScript                                       |
 | Backend  | <img src="https://skillicons.dev/icons?i=java,spring,postgresql,redis" height="24" /> Java 17 · Spring Boot 3 · PostgreSQL · Redis |
 | Infra    | <img src="https://skillicons.dev/icons?i=docker,githubactions" height="24" /> Docker · GitHub Actions                              |
 |          |                                                                                                                                    |
