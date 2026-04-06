@@ -1,94 +1,104 @@
-# EscolaTI
+<div align="center">
+  <img src="./assets/logotipoGradiente.png" width="280" />
 
-## Alunos
+  <h1>O mercado de moda criado para a sua cidade.</h1>
 
-- Bruno Valério Abrahim
-- Gabriel Rodrigues Soares
-- João Fernando Ehlers  
-- Leonardo Xavier Rodrigues  
-- Hugo Vinícius Fonseca Zuin  
-- Henrique Pacheco Alves  
+  <p>Descubra, compre e receba roupas de lojas da sua cidade.</p>
 
-## Aplicativo de Orientação para Manutenção Automotiva
+  <br />
 
-### 🚀 Tecnologias Utilizadas
+  <img src="https://skillicons.dev/icons?i=react,typescript,java,spring,postgresql,redis,docker" />
 
-#### Backend
+  <br /><br />
 
-- Java  
-- Spring Boot  
-
-#### Frontend
-
-- React
-- TypeScript
-
-#### Mobile
-
-- React Native  
+  <a href="https://www.figma.com/design/36njOKWxqVbjBS5M8ZAZ3f/Vitryne">
+    <img src="https://img.shields.io/badge/Protótipo-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+  </a>
+  <a href="./docs">
+    <img src="https://img.shields.io/badge/Documentação-/docs-9530D9?style=flat-square" />
+  </a>
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" />
+</div>
 
 ---
 
-### 🧠 Padrões e Ferramentas de Apoio
+## Sobre
 
-- Integração com modelos de Inteligência Artificial (ChatGPT / GPTMaker)  
-- Bases de dados de peças automotivas  
-- Biblioteca de vídeos educativos para procedimentos de manutenção  
+O **Vitryne** é uma plataforma de marketplace regional de moda desenvolvida como um projeto para **Escola de TI**.
 
----
+A ideia é simples: pequenas lojas de moda têm produtos incríveis, mas quase nenhuma presença digital. O Vitryne resolve isso entregando uma vitrine digital completa para o lojista e uma experiência de compra local com delivery, para o consumidor.
 
-### 🔌 APIs Utilizadas
+> Pensa no iFood — mas para as lojas de roupa da sua cidade.
 
-- GPTMaker  
-
----
-
-## ⚠️ Requisitos Conflitantes
-
-- Dependência de múltiplas bases de dados externas  
-- Limitações de tempo para desenvolvimento e integração das tecnologias  
+- 🏪 **Invisibilidade local** — lojas sem presença digital perdem vendas para grandes marketplaces todos os dias
+- 📦 **Fretes e impostos** — consumidores pagam caro importando quando há opções equivalentes perto de casa
+- 🔍 **Falta de centralização** — não existe plataforma regional com busca inteligente, delivery e devolução integrada
 
 ---
 
-## ⚡ Desempenho
+## Como funciona
 
-A aplicação foi projetada para ser rápida e prática, utilizando mensageria dinâmica com foco em análises eficientes e respostas em tempo quase real ao usuário.
+| Perfil | Plataforma | O que faz |
+|---|---|---|
+| 🛒 Consumidor | Web + Mobile | Descobre, compra e acompanha pedidos |
+| 🏬 Lojista | Web | Gerencia catálogo, pedidos e financeiro |
+| 🛵 Entregador | Mobile | Coleta nas lojas e entrega ao consumidor |
 
----
-
-## 🔐 Segurança
-
-O sistema deve garantir alto nível de segurança, especialmente no tratamento de informações sensíveis, incluindo:
-
-- Dados pessoais do usuário  
-- Localização  
-- Informações automotivas  
-- Dados de pagamento  
-
----
-
-## 📈 Escalabilidade
-
-A arquitetura do projeto permite expansão futura para outros tipos de veículos, como:
-
-- Motocicletas  
-- Caminhões  
-- Ônibus  
+```
+Consumidor busca por categoria, tamanho, preço ou proximidade
+  → Adiciona ao carrinho e finaliza o pagamento
+    → Lojista recebe e confirma em até 30 minutos
+      → Entregador coleta na loja e entrega
+        → Consumidor pode devolver dentro do prazo, com reembolso automático
+```
 
 ---
 
-## 💰 Custos
+## Stack
 
-- **Custo estimado do projeto:** R$ 500,00  
+
+| Camada   | Tecnologias                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Mobile   | <img src="https://skillicons.dev/icons?i=react,typescript" height="24" /> React Native · Expo · TypeScript                         |
+| Frontend | <img src="https://skillicons.dev/icons?i=react,typescript" height="24" /> React · TypeScript                                       |
+| Backend  | <img src="https://skillicons.dev/icons?i=java,spring,postgresql,redis" height="24" /> Java 17 · Spring Boot 3 · PostgreSQL · Redis |
+| Infra    | <img src="https://skillicons.dev/icons?i=docker,githubactions" height="24" /> Docker · GitHub Actions                              |
+|          |                                                                                                                                    |
+
+
+**Integrações externas**
+
+| Serviço | Uso |
+|---|---|
+| Mercado Pago / Stripe | Gateway de pagamento |
+| Firebase Cloud Messaging | Notificações push |
+| Google Maps API | Geolocalização e busca por proximidade |
+| WebSocket / STOMP | Tempo real > pedidos e chat |
 
 ---
 
-## 👤 Planos de Usuário
+## Documentação
 
-- **Plano Premium:** R$ 100,00 mensais  
+| Artefato | Link |
+|---|---|
+| 🎨 Protótipo de Alta Fidelidade | [Abrir no Figma](https://www.figma.com/design/36njOKWxqVbjBS5M8ZAZ3f/Vitryne) |
+| 🎯 Enquadramento do Problema | [Ver](/docs/EnquadramentoDoProblema.md) |
+| 👥 Personas e Necessidades | [Ver](/docs/PersonaseNecessidades.md) |
+| 📝 Requisitos e Regras de Negócio | [Ver](/docs/RequisitoseRegrasNegocio.md) |
+| 🔀 Mapa de Fluxos | [Ver](/docs/MapaDeModelagemDeFluxos.md) |
+| 🗂️ Mapa de Dados | [Ver](/docs/MapaDeDados.md) |
+| 📊 Diagrama de Casos de Uso | [Ver](/docs/DiagramaCasoDeUso.pdf) |
+| 📐 Diagrama de Classes | 🔄 Em andamento |
 
 ---
 
-## 📚 Contexto Acadêmico
+## Time
 
-Projeto desenvolvido como atividade prática para uma escola de Tecnologia da Informação, com foco em arquitetura de software, integração de APIs, segurança, desempenho e escalabilidade.
+| Membro |
+|---|
+| Bruno Valério Abrahim |
+| Gabriel Rodrigues Soares |
+| João Fernando Ehlers |
+| Leonardo Xavier Rodrigues |
+| Hugo Vinícius Fonseca Zuin |
+| Henrique Pacheco Alves |
