@@ -1,7 +1,4 @@
-# Requisitos e regras de Negócio
-
 ## Legendas e Convenções
-
 **RF-W** = Requisito Funcional Web
 **RF-M** = Requisito Funcional Mobile
 **RNF-W** = Requisito Não Funcional Web
@@ -15,10 +12,9 @@
 
 ---
 
-## 1. Requisitos Web
+# 1. Requisitos Web
 
-### 1.1 Requisitos Funcionais
-
+## 1.1 Requisitos Funcionais
 Requisitos funcionais da plataforma web: área pública/consumidor, portal exclusivo do lojista e painel administrativo.
 
 | **Código** | **Descrição** | **Relação** |
@@ -69,20 +65,24 @@ Requisitos funcionais da plataforma web: área pública/consumidor, portal exclu
 
 ---
 
-### 1.2 Requisitos Não Funcionais
-
+## 1.2 Requisitos Não Funcionais
 Requisitos não funcionais da plataforma web.
 
-| Código | Descrição | Relação |
-| ------ | --------- | ------- |
-| | | |
+| **Código**  | **Descrição**                                                                               | **Relação** |
+| ----------- | ------------------------------------------------------------------------------------------- | ----------- |
+| **RNF-01**  | O sistema deve ter tempo de resposta inferior a 2 segundos para 95% das requisições         | **—**       |
+| **RNF-W02** | O sistema deve ser responsivo, adaptando-se a desktop, tablet e mobile                      | **—**       |
+| **RNF-W03** | O sistema deve garantir disponibilidade de 99,5% mensal.                                    | **—**       |
+| **RNF-W04** | O sistema deve seguir padrões de acessibilidade (WCAG 2.1 nível AA)                         | **—**       |
+| **RNF-W05** | Todas as comunicações devem ser feitas via HTTPS (TLS 1.2+).                                | **RN-W25**  |
+| **RNF-W06** | O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge, Safari) | **—**       |
+| **RNF-W07** | Logs de auditoria devem ser armazenados por no mínimo 6 meses                               | **RN-W25**  |
 
 ---
 
-## 2. Requisitos Mobile
+# 2. Requisitos Mobile
 
-### 2.1 Requisitos Funcionais
-
+## 2.1 Requisitos Funcionais
 Requisitos funcionais do aplicativo mobile: consumidor (onboarding, catálogo, busca, compra, pedido, perfil) e entregador (disponibilidade, entregas, rastreamento, ganhos).
 
 | **Código** | **Descrição** | **Relação** |
@@ -130,18 +130,22 @@ Requisitos funcionais do aplicativo mobile: consumidor (onboarding, catálogo, b
 
 ---
 
-### 2.2 Requisitos Não Funcionais
-
+## 2.2 Requisitos Não Funcionais
 Requisitos não funcionais da plataforma mobile.
 
-| Código | Descrição | Relação |
-| ------ | --------- | ------- |
-| | | |
+| Código  | Descrição                                                                                    | Relação |
+| ------- | -------------------------------------------------------------------------------------------- | ------- |
+| RNF-M01 | O app deve iniciar em até 2 segundos em dispositivos médios.                                 | RF-M01  |
+| RNF-M02 | O app deve funcionar em Android 8+ e iOS 13+.                                                | —       |
+| RNF-M03 | O app deve consumir no máximo 150MB de armazenamento.                                        | —       |
+| RNF-M04 | O app deve seguir boas práticas de UX mobile (Material Design / Human Interface Guidelines). | —       |
+| RNF-M05 | O app deve proteger dados sensíveis com criptografia local segura                            | RN-M18  |
+| RNF-M06 | O app deve ter taxa de crash inferior a 1%.                                                  | —       |
+| RNF-M07 | O app deve suportar diferentes tamanhos de tela e densidades.                                | —       |
 
 ---
 
-## 3. Regras de Negócio Web
-
+# 3. Regras de Negócio Web
 Regras de negócio da plataforma web: cadastro e autenticação, status de loja, busca e catálogo, ciclo de vida do pedido, pagamento e financeiro, avaliação, segurança e LGPD, notificações.
 
 | **Código** | **Descrição** | **Relação** |
@@ -177,8 +181,7 @@ Regras de negócio da plataforma web: cadastro e autenticação, status de loja,
 
 ---
 
-## 4. Regras de Negócio Mobile
-
+# 4. Regras de Negócio Mobile
 Regras de negócio do aplicativo mobile: cadastro, autenticação e LGPD, catálogo e busca, carrinho e checkout, pagamento, pedido e rastreamento, devolução, entregador e geofencing.
 
 | **Código** | **Descrição** | **Relação** |
